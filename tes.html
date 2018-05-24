@@ -1,0 +1,29 @@
+<html>
+    <script>
+        var kursi_yang_dibooking = "A1 A2 A3",
+    semua_kursi = "A1 A2 A3 A4 A5 A6 A7 A8 A9 A10",
+    arraykursi = semua_kursi.split(" "),
+    dicari = "A1 A6",
+    md_split = dicari.split(" "),
+    kosong = 0,
+    tempat_kosong = [],
+    tempat_terduduiki = [],
+    i;
+
+for (i = 0; i < md_split.length; i = i + 1) {
+    kursi_yang_dibooking.map(function (lmn, idx) {
+        if (lmn == md_split[i]) {
+            console.log("terisi");
+            tempat_terduduiki.push(md_split[i]);
+            kosong = kosong + 1;
+        } 
+    })
+}
+
+if(tempat_terduduiki.length != 0) {
+    alert("TEmpta terisi");
+} else {
+    alert("KOSONG");
+}
+    </script>
+</html>

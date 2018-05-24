@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    min-height: 900px !important;
+    background: url(img/testimoni.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+wrapper {
+    background: rgba(0,0,0,0.6);
+    overflow-x: hidden;
+    height: 900px;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    padding: 80px 100px;
+}
+
+.text {
+    font-size: 190%;
+    text-align: center;
+    padding-top: 180px;
+    text-transform: capitalize;
+}
+
+.fill form {
+    margin: 0px 10px;
+}
+
+.fill form label {
+    margin: 20px 0px;
+    text-transform: capitalize;
+    display: block;
+}
+
+.fill form button {
+    margin: 40px 130px;
+    width: 300px;
+}
+
+
+.error {
+    color: red;
+    display: none;
+}
+
+@media only screen and (max-width:767px) {
+    body {
+        height: 1000px; 
+    }
+    .text {
+        display: none;
+    }
+    
+    wrapper {
+        padding: 100px 20px;
+        min-height: 1000px;
+    }
+    
+    .fill form button {
+        margin: 40px 40px;
+        width: 200px;
+    }
+}

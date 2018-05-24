@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+
+/*NAVIGATION*/
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > p {
+    color: #ffffff;
+    font-size: 130%;
+    padding: 23px 20px;
+    text-transform: capitalize;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > p:hover {
+    color: #ffffff;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color:#000000;
+    transition: 0.5s;
+}
+
+.dropdown-menu {padding: 0px;}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    background-color: #418fc9;
+    color: #ffffff;
+}
+
+.navbar-nav > li > .dropdown-menu {background-color: #418fc9;}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {background-color: none;}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    margin: 10px 30px;
+}
+
+.navbar-default .navbar-brand:hover {color: #ffffff;}
+
+.navbar-default {
+    background-color: #418fc9;
+    border: none;
+}
+
+#menu {background-color: #418fc9;}
+
+.btn-search {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: initial;
+    width: 130px;
+    margin: 2px 0px;
+}
+.navbar-toggle {
+    margin: -55px 30px;
+}
+
+.navbar-right {
+    margin: 0px 30px;
+}
+.search {
+    display: block;
+    width: 600px;
+    padding: 15px 40px;
+}
+
+.search .input-form {
+    border-radius: 5px;
+    width: 420px;
+    height: 40px;
+    background: none;
+    border: solid 1px #ffffff;
+    padding: 0px 20px;
+    color: #ffffff;
+}
+
+.search .input-form:focus {
+    background-color: #ffffff;
+    color: #000000;
+    transition:0.5s;
+}
+
+.landing {
+    background: url("img/blackpanther.jpg") no-repeat;
+    background-size: 100% 100%;
+    margin: 70px 0px 0px 0px;
+    height: 620px;
+    text-transform: capitalize;
+}
+
+.landing .wrapper {
+    background: rgba(0,0,0,0.5);
+    height: 620px;
+    color: #ffffff;
+    padding: 200px 80px;
+    text-align: center;
+}
+
+.landing .wrapper h3 {line-height: 1px;}
+
+.landing .wrapper a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin: 40px auto;
+    padding: 15px 10px;
+    width: 200px;
+    height: 50px;
+    text-transform: capitalize;
+    font-size: 120%;
+    background-color: #418fc9;
+    text-align: center;
+}
+
+.film {
+    width: 100%;
+    height: auto;
+    background-color: #303030;
+    color: #ffffff;
+    padding: 40px 80px;
+}
+
+h3 {text-transform: capitalize;}
+
+.now .row, .soon .row {margin-top: 60px;
+}
+
+.now .not-found, .soon .not-found {
+    text-align: center;
+    margin: 50px 0px;
+}
+.now .thumbnail, .soon .thumbnail {
+    height: auto;
+    width: auto;
+    background-color: #418fc9;
+    border: none;
+    border-radius: initial;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.now .thumbnail img, .soon .thumbnail img {
+    width: 100%;
+    height: 400px;
+}
+
+.now .thumbnail .thumbnail-content, .soon .thumbnail .thumbnail-content {
+    padding: 10px 0px 15px 0px;
+}
+
+.now .thumbnail .thumbnail-content .title {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.now .thumbnail .thumbnail-content a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.now .thumbnail .thumbnail-content .time {
+    line-height: 1;
+    display: inline-block;
+    margin: 0px 2px 0px 0px;
+}
+
+.now .thumbnail .thumbnail-content .room {font-weight: bold;}
+
+
+.benefit {
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.benefit .cheap {
+    height: auto;
+    background-color: #1e669b;
+}
+
+.benefit .fast {
+    height: auto;
+    background-color: #0c5891;
+}
+
+.benefit .easy {
+    height: auto;
+    background-color: #145382;
+}
+
+.benefit .row .col-md-4 {padding: 30px 40px;}
+
+.benefit .row .col-md-4 p {margin: 40px 0px;}
+
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #e8e8e8;
+    text-transform: capitalize;
+}
+
+.footer .row {
+    margin: 20px;
+    
+}
+
+.footer .title {
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.footer .sitemap a {
+    display: block;
+    color: #000000;
+}
+
+.footer .address {
+    margin-top: 40px;
+}
+
+.footer .socmed {
+    padding: 60px 30px;
+}
+
+.footer .socmed a {
+    color: #000000;
+    padding: 0px 5px;
+}
+
+/*SMARTPHONE*/  
+@media only screen and (max-width:767px) {
+    
+    .navbar-right {margin: 0px;}
+    
+    .search {
+        width: 100%;
+        min-height: 100px;
+        padding: 10px 0px;
+    }
+    .search .input-form {width: 290px;}
+    
+    .search button {
+        width: 290px;
+        margin: 20px 0px;
+    }
+    
+    .fa-bars {color: #ffffff;}
+    
+    .landing {
+        min-height: 450px;
+    }
+    .landing .wrapper {
+        padding: 120px 0px;
+    }
+    .landing .wrapper h3 {
+        line-height: 30px;
+    }
+    
+    .landing .wrapper a {
+        margin: 30px auto;
+        display: block;
+    }
+    
+    .container-fluid {
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    
+    .container-fluid .now, .container-fluid .soon {padding: 20px 30px;}
+}
+
+/*TABLET*/
+@media only screen and (min-width:768px) and (max-width:991px) {
+    
+    .navbar-right {
+        margin: -70px 30px;
+    }
+    .landing wrapper .ticket {
+        color: #ffffff;
+        font-size: 110%;
+        width: 140px;
+        height: 75px;
+        margin: 5.215123859191656vw 0vw 30px;
+        display: inline-block;
+        background-color: #418fc9;
+        padding: 25px 0px;  
+    }
+    
+    .landing wrapper {
+        color: #ffffff;
+        font-size: 100%;
+        width: 140px;
+        height: 75px;
+        background-color: #2773AD;
+        display: block;
+        margin: 2px auto;
+        padding: 20px;
+    }
+    
+}

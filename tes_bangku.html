@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script>
+            function tes() {
+                var checkbox = document.getElementsByName("seat[]");
+                var selected = "";
+                var n = checkbox.length;
+                
+                for (var i =0; i < n;i ++){
+                    if(checkbox[i].checked) {
+                        selected += checkbox[i].value + " ";
+                        var panjang = checkbox[i].length;
+                    }
+                }
+                var showData = selected;
+                var hasil = document.getElementById("hasil").value = showData;
+                var reserved = document.getElementById("reserved").innerHTML;
+                var lebar = document.getElementById("panjang").value = panjang;
+
+            }
+            
+            function verifikasi() {
+                var kursi = document.getElementById("reserved").innerHTML;
+                var hasil = document.getElementById("hasil").innerHTML;
+                
+                var arraykursi = kursi.split(",");
+                var arrayhasil = hasil.split(",");
+                
+                arraykursi.map(function(lmn,idx){
+                 if (arrayhasil.indexOf(lmn) > -1){
+                  window.alert("ada");
+                  alert(lmn);
+                 } else {
+                 alert("Tidak Ada");
+                 }
+                })
+            }
+        </script>
+    </head>
+    <body>
+        <form id="Myform" name="Myform">
+            <p id="reserved">A3 A4</p>
+            <input type="checkbox" name="seat[]" value="A1">a1
+            <input type="checkbox" name="seat[]" value="A2">a2
+            <input type="checkbox" name="seat[]" value="A3">a3
+            <input type="checkbox" name="seat[]" value="A4">a4
+            <button type="button" onclick="tes()">TES</button>
+            <input type="text" id="hasil"></p>
+            <button id="cek" type="button" onclick="verifikasi()">verif</button>
+        
+            
+        </form>
+        
+    </body>
+</html>

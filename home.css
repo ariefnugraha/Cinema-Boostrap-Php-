@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+/*NAVIGATION*/
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > p {
+    color: #ffffff;
+    font-size: 130%;
+    padding: 23px 20px;
+    text-transform: capitalize;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > p:hover {
+    color: #ffffff;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color:#000000;
+    transition: 0.5s;
+}
+
+.dropdown-menu {padding: 0px;}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    background-color: #418fc9;
+    color: #ffffff;
+}
+
+.navbar-nav > li > .dropdown-menu {background-color: #418fc9;}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {background-color: none;}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    margin: 10px 30px;
+}
+
+.navbar-default .navbar-brand:hover {color: #ffffff;}
+
+.navbar-default {
+    background-color: #418fc9;
+    border: none;
+}
+
+#menu {background-color: #418fc9;}
+
+.btn-search {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: initial;
+    width: 130px;
+    margin: 2px 0px;
+}
+.navbar-toggle {
+    margin: -55px 30px;
+}
+
+.navbar-right {
+    margin: 0px 30px;
+}
+.search {
+    display: block;
+    width: 600px;
+    padding: 15px 40px;
+}
+
+.search .input-form {
+    border-radius: 5px;
+    width: 420px;
+    height: 40px;
+    background: none;
+    border: solid 1px #ffffff;
+    padding: 0px 20px;
+    color: #ffffff;
+}
+
+.search .input-form:focus {
+    background-color: #ffffff;
+    color: #000000;
+    transition:0.5s;
+}
+
+.container-fluid {
+    margin-top:100px;
+    padding: 40px 30px;
+}
+
+ul li a {
+    color: #000000;
+}
+
+#transaction {
+    padding: 20px 100px;
+}
+
+#transaction .row .col-md-6 {
+    margin: 20px 0px;
+}
+
+#transaction a {color: #000000;}
+
+#transaction .transaction-content {
+    background-color: #666565;
+    margin: 0px auto;
+    color: #ffffff;
+    padding: 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+#transaction .transaction-content h3 {
+    font-size: 150%;
+    margin: 10px 10px;
+}
+
+#transaction .transaction-content .info {
+    text-align: center;
+}
+
+#transaction a {
+    padding:10px 10px;
+    width:200px;
+    text-align:center;
+    margin:20px 450px; display:block;
+    color:#ffffff;
+}
+#expire {
+    text-transform: capitalize;
+    padding: 40px 100px;
+}
+
+#expire .expire-content {
+    background-color: #666565;
+    margin: 10px 5px;
+    color: #ffffff;
+    padding: 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    width: 540px;
+}
+
+#expire .title {
+    font-size: 150%;
+    margin: 10px 10px;
+}
+
+#expire .price {
+    margin-top:30px;
+    font-size:120%;
+    text-align:right;
+}
+
+#promosi {
+    text-transform: capitalize;
+    padding: 40px 100px;
+}
+
+#promosi h3 {text-align: center;}
+
+#promosi .panel {
+    border-radius: initial;
+    text-align: center;
+}
+#topup {
+    padding: 40px 80px;
+}
+
+#topup h3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+#setting {
+    padding: 40px 200px;
+}
+
+#setting label {
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+
+#setting button {
+    margin: 40px 300px;
+    width: 300px;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #e8e8e8;
+    text-transform: capitalize;
+}
+
+.footer .row {
+    margin: 20px;
+    
+}
+
+.footer .title {
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.footer .sitemap a {
+    display: block;
+    color: #000000;
+}
+
+.footer .address {
+    margin-top: 40px;
+}
+
+.footer .socmed {
+    padding: 60px 30px;
+}
+
+.footer .socmed a {
+    color: #000000;
+    padding: 0px 5px;
+}
+
+/*SMARTPHONE*/  
+@media only screen and (max-width:767px) {
+    
+     .navbar-right {margin: 0px;}
+    
+    .search {
+        width: 100%;
+        min-height: 100px;
+        padding: 10px 0px;
+    }
+    .search .input-form {width: 290px;}
+    
+    .search button {
+        width: 290px;
+        margin: 20px 0px;
+    }
+    
+    .fa-bars {color: #ffffff;}
+    
+    .container-fluid {
+        padding: 0px;
+    }
+    
+    #transaction {padding: 0px 20px;}
+    
+    #transaction .transaction-content {
+        font-size: 90%;
+        width: 100%;
+    }
+    
+    #transaction a {
+        margin: 0px 80px !important;
+    }
+    
+    #expire {padding: 40px;}
+    
+    #expire .expire-content {
+        width: 90%;   
+        padding: 10px;
+    }
+    
+    #promosi {padding: 0px 20px;}
+    
+    #topup {padding: 20px;}
+    
+
+    #setting {padding: 60px 10px 0px 10px;}
+    
+    #setting button {
+        margin: 40px 50px;
+        width: 200px;
+    }

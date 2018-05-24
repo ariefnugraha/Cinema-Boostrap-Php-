@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #303030;
+}
+
+/*NAVIGATION*/
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > p {
+    color: #ffffff;
+    font-size: 130%;
+    padding: 23px 20px;
+    text-transform: capitalize;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > p:hover {
+    color: #ffffff;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color:#000000;
+    transition: 0.5s;
+}
+
+.dropdown-menu {padding: 0px;}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    background-color: #418fc9;
+    color: #ffffff;
+}
+
+.navbar-nav > li > .dropdown-menu {background-color: #418fc9;}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {background-color: none;}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    margin: 10px 30px;
+}
+
+.navbar-default .navbar-brand:hover {color: #ffffff;}
+
+.navbar-default {
+    background-color: #418fc9;
+    border: none;
+}
+
+#menu {background-color: #418fc9;}
+
+.btn-search {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: initial;
+    width: 130px;
+    margin: 2px 0px;
+}
+.navbar-toggle {
+    margin: -55px 30px;
+}
+
+.navbar-right {
+    margin: 0px 30px;
+}
+.search {
+    display: block;
+    width: 600px;
+    padding: 15px 40px;
+}
+
+.search .input-form {
+    border-radius: 5px;
+    width: 420px;
+    height: 40px;
+    background: none;
+    border: solid 1px #ffffff;
+    padding: 0px 20px;
+    color: #ffffff;
+}
+
+.search .input-form:focus {
+    background-color: #ffffff;
+    color: #000000;
+    transition:0.5s;
+}
+
+.container-fluid {
+    width: 100%;
+    height: auto;
+    margin: 70px 0px;
+    padding: 20px 50px;
+}
+
+.col-md-3  {
+    min-height: 120px;
+    margin: 20px 0px;
+}
+
+wrapper {
+    display: block;
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0px -15px;
+    text-align: center;
+    padding: 25px 0px;  
+    text-transform: capitalize;
+}
+
+wrapper a {
+    color: #ffffff;
+}
+
+wrapper a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.action {
+    background: url("img/kategori/action.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.adventure {
+    background: url("img/kategori/adventure.jpg")no-repeat;
+    background-size: 100% 100%;
+}
+
+.animation {
+    background: url("img/kategori/animation.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.anime {
+    background: url("img/kategori/anime.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.biography {
+    background: url("img/kategori/biography.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.comedy {
+    background: url("img/kategori/comedy.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.crime {
+    background: url("img/kategori/crime.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.documentary {
+    background: url("img/kategori/documentary.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.drama {
+    background: url("img/kategori/drama.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.family {
+    background: url("img/kategori/family.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.fantasy {
+    background: url("img/kategori/fantasy.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.foreign {
+    background: url("img/kategori/foreign.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.history {
+    background: url("img/kategori/history.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.horror {
+    background: url("img/kategori/horror.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.musical {
+    background: url("img/kategori/musical.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.mystery {
+    background: url("img/kategori/mystery.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.romance {
+    background: url(img/kategori/romance.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.sci-fi {
+    background-size: 100% 100%;
+}
+.short{
+    background: url("img/kategori/short.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.sport {
+    background: url("img/kategori/sport.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.superhero {
+    background: url("img/kategori/superhero.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.thriller {
+    background: url("img/kategori/thriller.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.war {
+    background: url("img/kategori/war.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #e8e8e8;
+    text-transform: capitalize;
+}
+
+.footer .row {
+    margin: 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+.footer .title {
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.footer .sitemap a {
+    display: block;
+    color: #000000;
+}
+
+.footer .address {
+    margin-top: 40px;
+}
+
+.footer .socmed {
+    padding: 60px 30px;
+}
+
+.footer .socmed a {
+    color: #000000;
+    padding: 0px 5px;
+}
+
+/*SMARTPHONE*/  
+@media only screen and (max-width:767px) {
+    .navbar-right {margin: 0px;}
+    
+    .search {
+        width: 100%;
+        min-height: 100px;
+        padding: 10px 0px;
+    }
+    .search .input-form {width: 290px;}
+    
+    .search button {
+        width: 290px;
+        margin: 20px 0px;
+    }
+    
+    .fa-bars {color: #ffffff;}
+    
+    .footer {height: 600px;}
+}
